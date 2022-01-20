@@ -1,0 +1,156 @@
+section img{
+    width: 350px;    
+}
+section img.isa{
+ width: 120px;
+ margin-bottom: 20px;
+   
+}
+section img.libro{
+    width: 150px;
+    
+}
+
+.columnIsa{    
+    padding: 30px;
+    text-align: center;
+    
+}
+.columnIsa{
+    width: 350px;
+}
+
+
+.isa p{
+    
+    text-align: justify;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 10px;
+    font-size: 14px;
+    
+}
+article.isa :nth-child(1) {
+    font-weight: bold;   
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 0px;
+}
+article.libro{
+    padding-top: 20px;
+    background-color: whitesmoke;  
+}
+p.suscribete{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px;   
+}
+article.libro :nth-child(1){
+    padding: 0px;
+    text-align: center;
+}
+article.libro :nth-child(3){
+    text-align:justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    margin-top: 0px;
+    height: 30px;
+}
+
+div.apuntame{
+    background-color: #7ABA96;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 0px
+}
+
+
+
+.listado article p{
+    white-space:pre;
+}
+
+.listado{
+    padding: 15px;
+}
+.listado article{
+    display: flex;
+}
+
+.listado article p{
+    padding-right: 10px;
+}
+
+.listado article p:nth-child(2n+2){
+    font-weight:bold;
+    color:#8A8070;
+    padding-right: 0px;
+}
+.listado article p:nth-child(2n+3){
+    color: #7ABA96;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.listado article p:first-child {
+    color: #8A8070;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.listado article p a{
+    color: #8A8070; 
+    width: 100px;
+    font-style: italic;
+    text-decoration: underline;
+} 
+.listado h2{
+    color: #8A8070;
+}
+.listado article p a:hover{
+    color: #7ABA96;
+}
+
+.listado hr{
+    border: 1px solid #7ABA96;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main .paginacion{
+    display: flex;
+    
+}
+.paginacion{
+    justify-content: center;
+}
+.paginacion ul{
+    display: flex;
+    flex-direction: row;
+}
+.paginacion li{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.paginacion li a{
+    padding: 7px 16px;
+    color:black;
+    border: #dadada solid 1px;
+    background-color:#dadada;
+    
+}
+.paginacion li.anterior a{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.paginacion li.siguiente a{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.paginacion li a:hover{
+    background-color:rgb(4, 196, 4);
+    color: black;
+}

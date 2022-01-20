@@ -1,0 +1,94 @@
+section img{
+    width: 350px;    
+}
+section img.isa{
+ width: 120px;
+ margin-bottom: 20px;
+   
+}
+section img.libro{
+    width: 150px;
+    
+}
+.row{
+    display: flex;  
+    justify-content: center;
+    margin-left: 0%;
+    margin-right: 0%;    
+}
+.columnIsa{    
+    padding: 30px;
+    text-align: center;
+    
+}
+.columnIsa{
+    width: 350px;
+}
+
+
+.isa p{
+    
+    text-align: justify;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 10px;
+    font-size: 14px;
+    
+}
+article.isa :nth-child(1) {
+    font-weight: bold;   
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 0px;
+}
+article.libro{
+    padding-top: 20px;
+    background-color: whitesmoke;  
+}
+p.suscribete{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px;   
+}
+article.libro :nth-child(1){
+    padding: 0px;
+    text-align: center;
+}
+article.libro :nth-child(3){
+    text-align:justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    margin-top: 0px;
+    height: 30px;
+}
+
+div.apuntame{
+    background-color: #7ABA96;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 0px
+}
+
+.receta{
+    width: 50%;
+    margin-bottom: 10%;
+    padding-left: 30px;
+}
+.receta p{
+    text-align: justify;
+}
+.portada{
+  width: 500px;
+}
+.receta h1{
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 0px;
+}
+.date{
+  margin-bottom: 5%;
+  color: gray;
+}

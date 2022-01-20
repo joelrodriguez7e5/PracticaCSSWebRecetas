@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+*{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    box-sizing: border-box; 
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+div.logo{
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+nav li{
+    list-style: none;
+    font-size: 17px;
+    margin-left: 25px;
+    text-transform: uppercase;  
+}
+li a{
+    text-decoration: none;
+    color: #8A8070;
+   
+}
+li a:hover {
+    color:#7ABA96;
+    
+}
+body{
+     margin: 0px;
+     padding:0; 
+     line-height: 20px;
+}
+
+.row{
+    display: flex;  
+    justify-content: center;    
+}
+
+footer{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+    box-sizing: border-box;
+    position: relative;   
+}
+footer a{
+    text-decoration: none;
+    padding: 27px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: flex;
+}

@@ -1,0 +1,36 @@
+div.contacto {
+    display: flex;
+    flex-direction: column;
+}
+.contacto form{
+    align-self: center;
+}
+.contacto input{
+    background-color: whitesmoke; 
+    width: 600px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border: 1px solid #7ABA96 ;
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+.contacto label{
+    display: flex; 
+    justify-content: left;
+}
+.contacto h3{
+    color:#8A8070;
+}
+.contacto input.check{
+    height: 15px;
+    width: 30px;
+}
+.contacto label.check{
+    display: inline-flex;
+    width: 560px;
+    font-size: 15px; 
+}
+.contacto input.registrarse{
+    margin-bottom: 15%;
+}
